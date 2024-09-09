@@ -45,7 +45,7 @@
 {
     .line
     {
-        height: 115px;
+        height: 135px;
     }
     #image-slider
     { 
@@ -126,17 +126,17 @@
 
 }
 
-@media (max-width:440px) {
+@media (max-width:500px) {
     #more
     {
         font-size: 1.7rem;
     }
     #main {
-        height: 60vh;
+        height: 500px;
     }
 
     #back-box {
-        height: 60vh;
+        height:500px;
     }
 
     #heading1 {
@@ -240,29 +240,11 @@
 }
 @media (max-width:380px)
 {
-    #main
-    {
-        height: 70vh;
-    }
-    #back-box
-    {
-        height: 70vh;
-    }
+ 
+  
     #movie
     {
         margin-top: 70px !important;
-    }
-
-}
-@media (max-width:350px)
-{
-    #main
-    {
-        height: 55vh;
-    }
-    #back-box
-    {
-        height: 55vh;
     }
 
 }
