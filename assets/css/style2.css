@@ -43,6 +43,7 @@
 }
 @media (max-width:1030px) 
 {
+
     #image-slider
     { 
         gap: 20px;
@@ -89,6 +90,13 @@
 
 }
 @media (max-width:650px) {
+    #main {
+        height: 700px;
+    }
+
+    #back-box {
+        height:700px;
+    }
     #logo {
         height: 20px;
     }
@@ -123,10 +131,6 @@
 }
 
 @media (max-width:500px) {
-    #more
-    {
-        font-size: 1.7rem;
-    }
     #main {
         height: 500px;
     }
@@ -134,7 +138,10 @@
     #back-box {
         height:500px;
     }
-
+    #more
+    {
+        font-size: 1.7rem;
+    }
     #heading1 {
         font-size: 1.8rem;
         width: 320px;
