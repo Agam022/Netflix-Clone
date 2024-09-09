@@ -43,10 +43,6 @@
 }
 @media (max-width:1030px) 
 {
-    .line
-    {
-        height: 135px;
-    }
     #image-slider
     { 
         gap: 20px;
@@ -198,7 +194,6 @@
     .line
     {
        top: 98%;
-       height: 60px;
        border-radius: 50%;
     }
     #movie
