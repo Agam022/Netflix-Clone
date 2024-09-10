@@ -5,6 +5,8 @@
 }
 
 body {
+    margin: auto;
+    max-width: 1920px;
     background-color: black;
 }
 
@@ -236,10 +238,10 @@ body {
 
 .line {
     height: 12%;
-    position: absolute;
-    top: 90%;
     background-color: white;
     width: 100%;
+    position: absolute;
+    top: 90%;
     z-index: 1;
     border-top: 3px solid red;
     border-radius: 50% 50% 0 0;
@@ -251,7 +253,7 @@ body {
     flex-direction: column;
     margin-top: 50px !important;
     gap: 20px;
-    width: 60%;
+    width:70%;
     padding: 4px;
     height: 450px;
     margin: auto;
@@ -286,6 +288,7 @@ body {
 .movie-selection {
     display: flex;
     gap: 10px;
+    width: 100%;
     position: relative;
 }
 
@@ -317,9 +320,9 @@ body {
     display: flex;
     align-items: center;
     margin: auto;
-    justify-content: center;
+    
     height: 400px;
-    width: 900px;
+    width: 100%;
     gap: 30px;
     overflow: hidden;
 }
@@ -342,8 +345,7 @@ body {
     display: flex;
     gap: 20px;
     flex-direction: column;
-    align-items: center;
-    width: 100%;
+    width: 70%;
     margin: auto;
 }
 
@@ -361,21 +363,18 @@ body {
     align-self:center;
     /* border: 2px solid white; */
     width: 100%;
-    flex-wrap: wrap;
     display: flex;
     align-items: center;
-    justify-content: center;
     gap: 20px;
 }
 
 .more-box {
     display: flex;
-    position: relative;
     flex-direction: column;
     height: 320px;
+    justify-content: space-between;
     padding: 20px;
-    gap: 20px;
-    border-radius: 10px;
+    border-radius: 15px;
     width: 280px;
     background: linear-gradient(#1c1b36, #20121f,#210f18);
     /* border: 2px solid grey; */
@@ -393,14 +392,18 @@ body {
 .more-box p {
     font-family: "Poppins", system-ui;
     font-weight: 500;
-    font-size: 1rem;
+    font-size: 0.8rem;
     color: rgba(255, 255, 255, 0.7);
 }
 .more-box img
 {
-    position: absolute;
-    top: 73%;
-    left: 69%;
     height: 70px;
+    align-self: flex-end;
     width: 71px;
+}
+.more-head-para
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
