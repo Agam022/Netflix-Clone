@@ -28,34 +28,78 @@
         font-size: 3rem;
         width: 600px;
     }
-    #image-slider
-    { 
-        gap: 20px;
-        width: 795px;
-        height: 270px;
-    }
+  #movie
+  {
+    width: 90%;
+  }
    .films img
    {
     width: 160px;
     height: auto;
 
    }
+   #more-reason
+   {
+    width: 90%;
+   }
+   #more-container
+ {
+    height: auto;
+    flex-wrap: wrap;
+ }
+ .more-box
+ {
+    height: 235px;
+    width: 48%;
+ }
+}
+@media (max-width:1200px) 
+{
+    #main ,#back-box
+    {
+        height: 700px;
+    }
+    
+ 
 }
 @media (max-width:1030px) 
 {
 
-    #image-slider
-    { 
-        gap: 20px;
-        width: 615px;
-        height: 230px;
-    }
    .films img
    {
     width: 128px;
     height: auto;
 
    }
+}
+@media (max-width:960px)
+{
+    .movie-selection {
+        flex-direction: column;
+        width: 100%;
+    }
+    .select-trend {
+        width: 100%;
+        display: block;
+    
+    }
+    #down-show {
+
+        left: 90%;
+    }
+
+    #down-movie {
+        left: 90%;
+    }
+    #more-reason
+    {
+        width: 95%;
+    }
+    .more-box 
+    {height: 195px;
+     width: 100%;
+    }
+
 }
 @media (max-width:850px) 
 {
@@ -75,12 +119,7 @@
 }
 @media (max-width:720px) 
 {
-    #image-slider
-    { 
-        gap: 20px;
-        width: 460px;
-        height: 165px;
-    }
+
    .films img
    {
     width: 90px;
@@ -115,12 +154,6 @@
     #em-submit {
         flex-direction: column;
     }
-    #image-slider
-    { 
-        gap: 20px;
-        width: 391px;
-        height: 141px;
-    }
    .films img
    {
     width: 75px;
@@ -132,21 +165,24 @@
     width: 100%;
 }
 
-.movie-selection {
-    flex-direction: column;
-    width: 100%;
-}
-.select-trend {
-    width: 90%;
-    margin: auto;
-    display: block;
-
-}
 #trend-now {
     margin-left: 20px;
 }
 }
-
+@media (max-width:560px)
+{
+    .more-box h2
+    {
+        font-size: 1.2rem;
+    }
+    .more-box p
+    {
+        font-size: 0.7rem;
+    }
+    .more-box {
+        height: 200px;
+    }
+}
 @media (max-width:500px) {
     #main {
         height: 500px;
@@ -154,10 +190,6 @@
 
     #back-box {
         height:500px;
-    }
-    #more
-    {
-        font-size: 1.7rem;
     }
     #heading1 {
         font-size: 1.8rem;
@@ -186,19 +218,6 @@
     #next_icon {
         top: 20%;
     }
-    #down-show {
-
-        left: 85%;
-    }
-
-    #down-movie {
-        left: 85%;
-    }
-    .line
-    {
-       top: 98%;
-       border-radius: 50%;
-    }
     #movie
     {
         margin-top: 60px !important;
@@ -215,19 +234,8 @@
     height: 80px;
 
    }
-   .more-box 
-   {
-    height: 220px;
-    width: 90%;
-   }
-   .more-box p
-   {
-    font-size: 0.9rem;
-   }
    .more-box img
    {
-    top: 70%;
-    left: 75%;
     height: 60px;
     width: 60px;
    }
